@@ -3,23 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F00495322374076600FEAF3B /* APIKit in Frameworks */ = {isa = PBXBuildFile; productRef = F00495312374076600FEAF3B /* APIKit */; };
+		F0049534237407F700FEAF3B /* EntityDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0049533237407F700FEAF3B /* EntityDataParser.swift */; };
+		F00495362374083700FEAF3B /* WikiEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00495352374083700FEAF3B /* WikiEntity.swift */; };
+		F0049539237408AE00FEAF3B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0049538237408AE00FEAF3B /* Request.swift */; };
+		F004953B2374095200FEAF3B /* APIPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004953A2374095200FEAF3B /* APIPublisher.swift */; };
+		F004953D2374099300FEAF3B /* APISubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004953C2374099300FEAF3B /* APISubscription.swift */; };
+		F004953F237409B800FEAF3B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004953E237409B800FEAF3B /* SearchBar.swift */; };
+		F004954123740A7B00FEAF3B /* WikiSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004954023740A7B00FEAF3B /* WikiSearchModel.swift */; };
+		F004954323740ABD00FEAF3B /* WikiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004954223740ABD00FEAF3B /* WikiRequest.swift */; };
+		F004954523740BB600FEAF3B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004954423740BB600FEAF3B /* WebView.swift */; };
+		F004954723740D1C00FEAF3B /* WikiDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004954623740D1C00FEAF3B /* WikiDetail.swift */; };
 		F06AAB7A2374065700965427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AAB792374065700965427 /* AppDelegate.swift */; };
 		F06AAB7C2374065700965427 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AAB7B2374065700965427 /* SceneDelegate.swift */; };
-		F06AAB7E2374065700965427 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AAB7D2374065700965427 /* ContentView.swift */; };
+		F06AAB7E2374065700965427 /* WikiSearchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AAB7D2374065700965427 /* WikiSearchList.swift */; };
 		F06AAB802374065A00965427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06AAB7F2374065A00965427 /* Assets.xcassets */; };
 		F06AAB832374065A00965427 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06AAB822374065A00965427 /* Preview Assets.xcassets */; };
 		F06AAB862374065A00965427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06AAB842374065A00965427 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0049533237407F700FEAF3B /* EntityDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityDataParser.swift; sourceTree = "<group>"; };
+		F00495352374083700FEAF3B /* WikiEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiEntity.swift; sourceTree = "<group>"; };
+		F0049538237408AE00FEAF3B /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		F004953A2374095200FEAF3B /* APIPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPublisher.swift; sourceTree = "<group>"; };
+		F004953C2374099300FEAF3B /* APISubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISubscription.swift; sourceTree = "<group>"; };
+		F004953E237409B800FEAF3B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		F004954023740A7B00FEAF3B /* WikiSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSearchModel.swift; sourceTree = "<group>"; };
+		F004954223740ABD00FEAF3B /* WikiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiRequest.swift; sourceTree = "<group>"; };
+		F004954423740BB600FEAF3B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		F004954623740D1C00FEAF3B /* WikiDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiDetail.swift; sourceTree = "<group>"; };
 		F06AAB762374065700965427 /* IncrementalSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IncrementalSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06AAB792374065700965427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F06AAB7B2374065700965427 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F06AAB7D2374065700965427 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F06AAB7D2374065700965427 /* WikiSearchList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSearchList.swift; sourceTree = "<group>"; };
 		F06AAB7F2374065A00965427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F06AAB822374065A00965427 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F06AAB852374065A00965427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,12 +52,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00495322374076600FEAF3B /* APIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F00495372374087300FEAF3B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F0049533237407F700FEAF3B /* EntityDataParser.swift */,
+				F0049538237408AE00FEAF3B /* Request.swift */,
+				F004953A2374095200FEAF3B /* APIPublisher.swift */,
+				F004953C2374099300FEAF3B /* APISubscription.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F004954823740E9F00FEAF3B /* Wiki */ = {
+			isa = PBXGroup;
+			children = (
+				F004954623740D1C00FEAF3B /* WikiDetail.swift */,
+				F00495352374083700FEAF3B /* WikiEntity.swift */,
+				F004954223740ABD00FEAF3B /* WikiRequest.swift */,
+			);
+			path = Wiki;
+			sourceTree = "<group>";
+		};
+		F00495492374113C00FEAF3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F06AAB7D2374065700965427 /* WikiSearchList.swift */,
+				F004953E237409B800FEAF3B /* SearchBar.swift */,
+				F004954423740BB600FEAF3B /* WebView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F004954A237411F800FEAF3B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F004954023740A7B00FEAF3B /* WikiSearchModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F004954B2374121A00FEAF3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F004954823740E9F00FEAF3B /* Wiki */,
+				F00495372374087300FEAF3B /* API */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F004954C2374129700FEAF3B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F06AAB792374065700965427 /* AppDelegate.swift */,
+				F06AAB7B2374065700965427 /* SceneDelegate.swift */,
+				F004954B2374121A00FEAF3B /* Model */,
+				F00495492374113C00FEAF3B /* View */,
+				F004954A237411F800FEAF3B /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		F06AAB6D2374065700965427 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +138,7 @@
 		F06AAB782374065700965427 /* IncrementalSearch */ = {
 			isa = PBXGroup;
 			children = (
-				F06AAB792374065700965427 /* AppDelegate.swift */,
-				F06AAB7B2374065700965427 /* SceneDelegate.swift */,
-				F06AAB7D2374065700965427 /* ContentView.swift */,
+				F004954C2374129700FEAF3B /* Main */,
 				F06AAB7F2374065A00965427 /* Assets.xcassets */,
 				F06AAB842374065A00965427 /* LaunchScreen.storyboard */,
 				F06AAB872374065A00965427 /* Info.plist */,
@@ -91,6 +171,9 @@
 			dependencies = (
 			);
 			name = IncrementalSearch;
+			packageProductDependencies = (
+				F00495312374076600FEAF3B /* APIKit */,
+			);
 			productName = IncrementalSearch;
 			productReference = F06AAB762374065700965427 /* IncrementalSearch.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +202,9 @@
 				Base,
 			);
 			mainGroup = F06AAB6D2374065700965427;
+			packageReferences = (
+				F00495302374076600FEAF3B /* XCRemoteSwiftPackageReference "APIKit" */,
+			);
 			productRefGroup = F06AAB772374065700965427 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,8 +233,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F06AAB7A2374065700965427 /* AppDelegate.swift in Sources */,
+				F0049539237408AE00FEAF3B /* Request.swift in Sources */,
+				F0049534237407F700FEAF3B /* EntityDataParser.swift in Sources */,
+				F004954323740ABD00FEAF3B /* WikiRequest.swift in Sources */,
+				F004953B2374095200FEAF3B /* APIPublisher.swift in Sources */,
+				F00495362374083700FEAF3B /* WikiEntity.swift in Sources */,
+				F004954123740A7B00FEAF3B /* WikiSearchModel.swift in Sources */,
+				F004953F237409B800FEAF3B /* SearchBar.swift in Sources */,
 				F06AAB7C2374065700965427 /* SceneDelegate.swift in Sources */,
-				F06AAB7E2374065700965427 /* ContentView.swift in Sources */,
+				F004954723740D1C00FEAF3B /* WikiDetail.swift in Sources */,
+				F004954523740BB600FEAF3B /* WebView.swift in Sources */,
+				F06AAB7E2374065700965427 /* WikiSearchList.swift in Sources */,
+				F004953D2374099300FEAF3B /* APISubscription.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +438,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F00495302374076600FEAF3B /* XCRemoteSwiftPackageReference "APIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ishkawa/APIKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F00495312374076600FEAF3B /* APIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F00495302374076600FEAF3B /* XCRemoteSwiftPackageReference "APIKit" */;
+			productName = APIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F06AAB6E2374065700965427 /* Project object */;
 }
